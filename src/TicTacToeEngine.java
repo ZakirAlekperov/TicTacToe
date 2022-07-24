@@ -6,8 +6,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class TicTacToeEngine {
+public class TicTacToeEngine implements ActionListener{
 
+    TicTacToeGUI parent = new TicTacToeGUI();
+    public TicTacToeEngine(TicTacToeGUI parent){
 
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
 
+    }
 }
